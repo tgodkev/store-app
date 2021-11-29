@@ -14,6 +14,12 @@ function Card(props){
         </div>
         <div className = "bottom">
             <p>${props.price}</p>
+            <form>
+                <div>
+                <button type = "submit">Add to cart</button>
+                </div>
+                <button type = "submit">Add to wishlist</button>
+            </form>
         </div>
 
         </div>

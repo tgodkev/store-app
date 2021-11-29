@@ -7,6 +7,7 @@ import Card from './Card';
 function App() {
   return (
     <div>
+    <div>
       <Header />
       <Card 
       name = {products[0].name}
@@ -34,7 +35,7 @@ function App() {
       price = {products[4].price}
       />
 
-
+      </div>
 
       <Footer />
     </div>
