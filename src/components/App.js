@@ -1,4 +1,4 @@
-import Styles from '../Styles.css'
+import '../Styles.css'
 import Header from './Header';
 import Footer from './Footer'
 import products from '../Products';
